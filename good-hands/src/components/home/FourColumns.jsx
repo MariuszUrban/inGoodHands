@@ -6,7 +6,7 @@ import Icon4 from "../../assets/Icon-4.svg";
 
 export default function FourColumns() {
   return (
-    <div className="four-columns-container col-lg-12">
+    <div name='info' className="four-columns-container col-lg-12">
       <div className="four-column-box">
         <div className="column-thin col-lg-2">
           <div className="column-thin-box">

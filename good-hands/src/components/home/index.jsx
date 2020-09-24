@@ -7,6 +7,7 @@ import ThreeColumns from './ThreeColumns';
 import BarDeco from './BarDeco';
 import FourColumns from './FourColumns';
 import BarButton from './BarButton';
+import AboutUs from './AboutUs'
 import "../../scss/components/_home.scss";
 
 export default function Home() {
@@ -28,11 +29,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id='info-columns' name='info'>
+      <section id='info-columns' >
         <ThreeColumns />
         <BarDeco />
-        <FourColumns id='about' />
+        <FourColumns />
         <BarButton />
+      </section>
+      <section id='about'>
+        <AboutUs />
       </section>
     </main>
   );
