@@ -207,3 +207,61 @@
         text-align: center;
     }
 }
+
+#about{
+    height: 100vh;
+    background-color: $color1;
+}
+
+.about-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-content{
+    height: 45%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1, img{
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: center;
+        line-height: 25px;
+    }
+}
+
+.sign{
+    display: flex;
+    justify-content: flex-end;
+    height: 30%;
+    width: 70%;
+    img{
+        height: 50%;
+    }
+}
+
+.about-photo{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    img{
+        height: 100%;
+        width: auto;
+        position: absolute;
+    }
+}
