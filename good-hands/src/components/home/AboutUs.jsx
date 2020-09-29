@@ -1,4 +1,5 @@
 import React from "react";
+import '../../scss/components/_aboutUs.scss';
 import Decoration from "../../assets/Decoration.svg";
 import Signature from "../../assets/Signature.svg";
 import People from "../../assets/People.jpg";

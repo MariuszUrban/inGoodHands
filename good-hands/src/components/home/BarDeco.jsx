@@ -1,5 +1,6 @@
 import React from 'react';
-import Decoration from '../../assets/Decoration.svg'
+import Decoration from '../../assets/Decoration.svg';
+import '../../scss/components/_barDeco.scss';
 
 export default function BarDeco() {
     return (

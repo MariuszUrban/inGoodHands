@@ -1,0 +1,31 @@
+@import '../main.scss';
+
+.three-columns-container {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color3;
+}
+
+.column{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 80%;
+      h2,p{
+          padding-top: 20px;
+      }
+      p{
+          text-align: center;
+      }
+  }

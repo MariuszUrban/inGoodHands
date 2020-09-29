@@ -1,4 +1,5 @@
 import React from "react";
+import '../../scss/components/_barDeco.scss';
 import { NavLink as Link } from "react-router-dom";
 
 export default function BarButton() {

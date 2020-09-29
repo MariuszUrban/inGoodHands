@@ -1,4 +1,6 @@
 import React from "react";
+import '../../scss/components/_threeColumns.scss';
+
 
 export default function ThreeColumns() {
   return (

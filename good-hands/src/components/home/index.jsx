@@ -1,33 +1,18 @@
 import React from "react";
-import LoginNav from "./LoginNav";
-import MenuNav from "./MenuNav";
-import PhotoContainer from "./PhotoContainer";
-import ButtonsContainer from "./ButtonsContainer";
+import HomePage from './HomePage'
 import ThreeColumns from './ThreeColumns';
 import BarDeco from './BarDeco';
 import FourColumns from './FourColumns';
 import BarButton from './BarButton';
-import AboutUs from './AboutUs'
+import AboutUs from './AboutUs';
+import WhoWeHelp from './WhoWeHelp'
 import "../../scss/components/_home.scss";
 
 export default function Home() {
   return (
     <main>
       <section id="home-page">
-        <div className="home-container col-lg-12">
-          <div className="box col-lg-6">
-            <PhotoContainer />
-          </div>
-          <div className="box col-lg-6">
-            <div className="nav-row">
-              <LoginNav />
-              <MenuNav />
-            </div>
-            <div className="buttons-row">
-              <ButtonsContainer />
-            </div>
-          </div>
-        </div>
+        <HomePage />
       </section>
       <section id='info-columns' >
         <ThreeColumns />
@@ -37,6 +22,9 @@ export default function Home() {
       </section>
       <section id='about'>
         <AboutUs />
+      </section>
+      <section id='who-we-help'>
+        <WhoWeHelp />
       </section>
     </main>
   );
