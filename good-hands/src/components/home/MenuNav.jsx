@@ -1,11 +1,11 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { Component } from "react";
+import '../../scss/components/_menuNav.scss';
 
 export default class MenuNav extends Component {
   render() {
     return (
-      <div className="nav-container">
-        <nav>
+        <nav className="nav-container">
           <ul className="nav-list btn-menu">
             <li>
               <button>
@@ -50,7 +50,6 @@ export default class MenuNav extends Component {
             </li>
           </ul>
         </nav>
-      </div>
     );
   }
 }

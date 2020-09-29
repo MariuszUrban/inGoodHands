@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../../scss/components/_loginNav.scss';
 
 export default function LoginNav() {
     return (

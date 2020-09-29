@@ -1,0 +1,46 @@
+@import '../main.scss';
+
+.nav-container{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    nav{
+        width: 80%;
+        height: 100%;
+        align-items: center;
+    }
+}
+
+.nav-list-login{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+
+.btn-login{
+    li{
+        display: flex;
+        width: max-content;
+        min-width: 70px;
+        justify-content: center;
+        height: 20px;
+        border: solid 1px $color4;
+        margin-left: 30px;
+        button{
+            height: 100%;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: inherit;
+            span{
+                color: $color4;
+                font-size: 60%;
+            }
+        }
+    }
+}

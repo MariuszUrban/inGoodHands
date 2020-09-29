@@ -1,0 +1,14 @@
+@import '../main.scss';
+
+.bar-deco{
+    height: 15%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img{
+        padding-top: 15px;
+    }
+    
+}
