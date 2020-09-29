@@ -114,13 +114,9 @@
 			tags: 'et quas molestias',
 		},
 	];
-	
-	
-	
 
-const fetchStats = () => {
+export const fetchStats = () => {
 	return new Promise((resolve, reject) => {
-  	setTimeout(() => resolve(foundations), 300);
+  	setTimeout(() => resolve({ foundations, ngo, local }), 300);
   });
 };
-fetchStats().then(console.log);
