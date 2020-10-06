@@ -1,0 +1,34 @@
+@import '../../../scss/main.scss';
+
+
+.background{
+    img{
+    height: 100vh;
+    width: 100%;}
+    opacity: 0.2;
+    position: absolute;
+    z-index: -1;
+}
+
+.contact-form-container{
+    height: 100vh;
+    display: flex;
+}
+.contact-form-left{
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-form-right{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer{ 
+    height: 30px;
+    width: 100%;
+
+}
