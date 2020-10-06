@@ -5,7 +5,7 @@ import BarDeco from './BarDeco';
 import FourColumns from './FourColumns/FourColumns';
 import BarButton from './BarButton';
 import AboutUs from './AboutUs';
-import WhoWeHelp from './WhoWeHelp'
+import WhoWeHelp from './WhoWeHelpLibrary/WhoWeHelp'
 import "../../scss/components/_home.scss";
 
 export default function Home() {
