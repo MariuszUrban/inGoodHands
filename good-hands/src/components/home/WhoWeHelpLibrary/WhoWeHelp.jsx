@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { fetchStats, foundations, local, ngo } from '../../services/statsService'
+import { fetchStats } from '../../../services/statsService'
 
 const FOUNDATIONS = 'foundations';
 const NGOS = 'ngo';

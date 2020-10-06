@@ -58,13 +58,13 @@
 	const ngo = [
 		{
 			id: 1,
-			ngo: 'Lorem ipsum mariusz popsuł ',
+			ngo: 'ngo ipsum mariusz popsuł ',
 			desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
 			tags: 'et quas molestias',
 		},
 		{
 			id: 2,
-			ngo: 'Lorem ipsum mariusz popsuł ',
+			ngo: 'ngo ipsum mariusz popsuł ',
 			desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
 			tags: 'et quas molestias',
 		},
@@ -76,19 +76,19 @@
 		},
 		{
 			id: 4,
-			ngo: 'Lorem ipsum mariusz popsuł ',
+			ngo: 'ngo ipsum mariusz popsuł ',
 			desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
 			tags: 'et quas molestias',
 		},
 		{
 			id: 5,
-			ngo: 'Lorem ipsum mariusz popsuł ',
+			ngo: 'ngo ipsum mariusz popsuł ',
 			desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
 			tags: 'et quas molestias',
 		},
 		{
 			id: 6,
-			ngo: 'Lorem ipsum mariusz popsuł ',
+			ngo: 'ngo ipsum mariusz popsuł ',
 			desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
 			tags: 'et quas molestias',
 		},
