@@ -1,0 +1,17 @@
+@import '../../scss/main.scss';
+
+#login{
+    height: 100vh;
+}
+
+.nav-row{
+    height: 5vh;
+}
+
+.login-container{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
