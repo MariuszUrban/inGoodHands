@@ -1,0 +1,14 @@
+@import '../../scss/main.scss';
+
+.registration-form-container{
+
+}
+
+.registration-inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width:  400px; 
+    background-color: lightgray;
+}

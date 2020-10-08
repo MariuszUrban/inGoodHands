@@ -1,0 +1,17 @@
+@import '../../scss/main.scss';
+
+#registration{
+    height: 100vh;
+}
+
+.nav-row{
+    height: 5vh;
+}
+
+.registration-container{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
