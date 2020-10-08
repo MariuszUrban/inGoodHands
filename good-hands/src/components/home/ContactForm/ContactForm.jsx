@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./_contactForm.scss";
 import Background from "./assets/Background-Contact-Form.jpg";
 import MailForm from './MailForm';
