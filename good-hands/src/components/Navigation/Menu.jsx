@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import React, { Component } from "react";
-import '../../scss/components/_menuNav.scss';
+import './_menu.scss';
 
 export default class MenuNav extends Component {
   render() {

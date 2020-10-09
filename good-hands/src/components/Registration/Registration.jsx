@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import RegistrationForm from './RegistrationForm';
-import LoginNav from '../Home/LoginNav';
-import MenuNav from '../Home/MenuNav';
+import Navigation from '../Navigation/Navigation'
 import DecorationBar from '../DecorationBar/DecorationBar'
 import './_registration.scss'; 
 
@@ -14,8 +13,7 @@ export default class Login extends Component {
         return (
             <section id="registration">
             <div className='nav-row'>
-                <LoginNav />
-                <MenuNav />
+                <Navigation />
             </div>
             <div className='registration-container'>
                 <DecorationBar text={register} />

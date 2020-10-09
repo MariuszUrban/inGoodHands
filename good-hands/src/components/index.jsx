@@ -1,13 +1,13 @@
 import React from "react";
-import HomePage from './HomePage'
-import ThreeColumns from './ThreeColumns/ThreeColumns';
-import BarDeco from './BarDeco';
-import FourColumns from './FourColumns/FourColumns';
-import BarButton from './BarButton';
-import AboutUs from './AboutUs';
-import WhoWeHelp from './WhoWeHelpLibrary/WhoWeHelp';
-import ContactForm from './ContactForm/ContactForm'
-import "../../scss/components/_home.scss";
+import HomePage from './Home/HomePage'
+import ThreeColumns from './Home/ThreeColumns/ThreeColumns';
+import BarDeco from './Home/BarDeco';
+import FourColumns from './Home/FourColumns/FourColumns';
+import BarButton from './Home/BarButton';
+import AboutUs from './Home/AboutUs';
+import WhoWeHelp from './Home/WhoWeHelpLibrary/WhoWeHelp';
+import ContactForm from './Home/ContactForm/ContactForm';
+import "../scss/components/_home.scss";
 
 export default function Home() {
   return (

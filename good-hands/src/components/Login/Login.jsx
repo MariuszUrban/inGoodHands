@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import BarDeco from './BarDeco';
 import LoginForm from './LoginForm';
-import LoginNav from '../Home/LoginNav';
-import MenuNav from '../Home/MenuNav';
+import Navigation from '../Navigation/Navigation'
 import './_login.scss'; 
 
 
@@ -11,8 +10,7 @@ export default class Login extends Component {
         return (
             <section id="login">
             <div className='nav-row'>
-                <LoginNav />
-                <MenuNav />
+                <Navigation />
             </div>
             <div className='login-container'>
                 <BarDeco />
