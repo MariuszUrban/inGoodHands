@@ -1,6 +1,6 @@
 import React from "react";
 import HomePage from './HomePage'
-import ThreeColumns from './ThreeColumns';
+import ThreeColumns from './ThreeColumns/ThreeColumns';
 import BarDeco from './BarDeco';
 import FourColumns from './FourColumns/FourColumns';
 import BarButton from './BarButton';
