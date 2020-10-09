@@ -1,0 +1,13 @@
+@import "../../scss/main.scss";
+
+.btn-main{
+        width: 250px;
+        height: 70px;
+        border: 1px black solid;
+        @include font-size(1.4);
+        background-color: white;
+        span{
+            font-family: $font-base;
+            font-weight: 100;
+        }
+}
