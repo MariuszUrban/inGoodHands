@@ -1,12 +1,13 @@
 @import '../../scss/main.scss';
 
-.nav-container{
-    height: 40px;
+.menu-container{
+    height: 30px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
     nav{
-        width: 80%;
+        width: 50%;
         height: 100%;
         align-items: center;
     }
@@ -15,21 +16,24 @@
 .nav-list{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 50%;
+    margin-right: 40px;
 }
 
 
 .btn-menu{
-    display: flex;
-    justify-content: space-between;
+    ul{
+        width: 100%;
+    }
     li{
         width: fit-content;
         button{
             border: none;
             background-color: inherit;
-            font-size: 75%;
+            font-size: 55%;
         }
     }
 }

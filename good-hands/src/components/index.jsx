@@ -1,5 +1,6 @@
 import React from "react";
-import HomePage from './Home/HomePage'
+
+import StartPage from './Home/StartPage/StartPage'
 import ThreeColumns from './Home/ThreeColumns/ThreeColumns';
 import BarDeco from './Home/BarDeco';
 import FourColumns from './Home/FourColumns/FourColumns';
@@ -11,10 +12,8 @@ import "../scss/components/_home.scss";
 
 export default function Home() {
   return (
-    <main>
-      <section id="home-page">
-        <HomePage />
-      </section>
+    <main >
+      <StartPage />
       <section id='info-columns' >
         <ThreeColumns />
         <BarDeco />

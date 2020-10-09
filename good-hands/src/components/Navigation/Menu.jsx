@@ -5,7 +5,7 @@ import './_menu.scss';
 export default class MenuNav extends Component {
   render() {
     return (
-        <nav className="nav-container">
+        <nav className="menu-container">
           <ul className="nav-list btn-menu">
             <li>
               <button>
