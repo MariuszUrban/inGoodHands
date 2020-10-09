@@ -6,6 +6,7 @@ export default function DecorationBar(props) {
     return (
         <div className='decoration-bar'>
             <h1>{props.text}</h1>
+            <h1>{props.text2}</h1>
             <img src={Decoration} alt='deco' />
         </div>
     )

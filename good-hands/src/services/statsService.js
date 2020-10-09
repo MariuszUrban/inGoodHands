@@ -1,4 +1,4 @@
-	const foundations = [
+export const foundations = [
 		{
 			id: 1,
 			foundation: 'Lorem ipsum mariusz popsuł ',
@@ -55,7 +55,7 @@
 		},		
 	];
 	
-	const ngo = [
+	export const ngo = [
 		{
 			id: 1,
 			ngo: 'ngo ipsum mariusz popsuł ',
@@ -94,7 +94,7 @@
 		},
 	];
 	
-	const local = [
+	export const local = [
 		{
 			id: 1,
 			ngo: 'Lorem ipsum mariusz popsuł ',

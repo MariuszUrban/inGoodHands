@@ -1,22 +1,23 @@
-import React from "react";
-import Decoration from '../../assets/Decoration.svg'
+import DecorationBar from '../DecorationBar/DecorationBar';
+import Button from '../Button/Button'
 
-export default function ButtonsContainer() {
-  return (
-    <div>
+import React, { Component } from 'react'
+
+export default class ButtonsContainer extends Component {
+  render() {
+
+    return (
       <div>
-        <h1>Zacznij pomagać!</h1>
-        <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
-        <img src={Decoration} alt='decoration' />
+        <DecorationBar text="Zacznij pomagać" text2="Oddaj niechciane rzeczy w zaufane ręce" />
+        <Button text="Oddaj rzeczy" />
+        <Button text="Zorganizuj zbiórkę" />
       </div>
-      <div>
-        <button>
-          <span>Oddaj rzeczy</span>
-        </button>
-        <button>
-          <span>Zorganizuj zbiórkę</span>
-        </button>
-      </div>
-    </div>
-  );
+    )
+  }
 }
+
+
+
+  
+   
+ 
