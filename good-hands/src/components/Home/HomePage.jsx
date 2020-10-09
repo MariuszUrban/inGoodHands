@@ -1,7 +1,6 @@
 import React from 'react';
 import PhotoContainer from './PhotoContainer';
-import LoginNav from './LoginNav';
-import MenuNav from './MenuNav';
+import Navigation from '../Navigation/Navigation'
 import ButtonsContainer from './ButtonsContainer';
 import '../../scss/components/_homePage.scss';
 
@@ -13,10 +12,7 @@ export default function Home() {
           <PhotoContainer />
         </div>
         <div className="box col-lg-6">
-          <div className="nav-row">
-            <LoginNav />
-            <MenuNav />
-          </div>
+            <Navigation />
           <div className="buttons-row">
             <ButtonsContainer />
           </div>

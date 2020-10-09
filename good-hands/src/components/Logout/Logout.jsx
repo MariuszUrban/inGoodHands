@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import DecorationBar from '../DecorationBar/DecorationBar';
-import LoginNav from '../Home/LoginNav';
-import MenuNav from '../Home/MenuNav';
+import Navigation from '../Navigation/Navigation'
 
 
 export default class Logout extends Component {
@@ -10,8 +9,7 @@ export default class Logout extends Component {
     return (
       <section id="logout">
       <div>
-      <LoginNav />
-        <MenuNav />
+      <Navigation />
       </div>
        <div>
        <DecorationBar text={text} />

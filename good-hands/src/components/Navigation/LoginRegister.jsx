@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink as Link } from "react-router-dom";
-import '../../scss/components/_loginNav.scss';
+import './_loginRegister.scss';
 
 export default function LoginNav() {
     return (
