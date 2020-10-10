@@ -1,21 +1,19 @@
 import React from "react";
-import '../../scss/components/_aboutUs.scss';
-import Decoration from "../../assets/Decoration.svg";
-import Signature from "../../assets/Signature.svg";
-import People from "../../assets/People.jpg";
+import './_aboutUs.scss';
+import Signature from "./assets/Signature.svg";
+import DecorationBar from '../../DecorationBar/DecorationBar'
 
 export default function AboutUs() {
   return (
+    <section id='about-us' >
     <div name='about ' className="about-container col-lg-12">
-      <div className="about-box col-lg-6">
+      <div className="about-box left col-lg-6">
         <div className="about-content">
-          <h1>O nas</h1>
-          <img src={Decoration} alt="Decoration" />
+          <DecorationBar text="O nas" class='about-us-deco' />
           <p>
-            {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
             earum nobis pariatur quasi illum maiores sed, autem beatae quisquam
-            placeat!{" "}
+            placeat!
           </p>
         </div>
         <div className="sign">
@@ -25,9 +23,9 @@ export default function AboutUs() {
 
       <div className="about-box col-lg-6">
         <div className='about-photo'>
-          <img src={People} alt='people' />
         </div>
       </div>
     </div>
+    </section>
   );
 }

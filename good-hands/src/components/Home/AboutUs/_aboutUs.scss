@@ -1,0 +1,74 @@
+@import  '../../../scss/main.scss';
+
+#about-us{
+    height: 100vh;
+}
+
+.about-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.left{
+    z-index: 1;
+}
+.about-content{
+    height: 45%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1, img{
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: center;
+        line-height: 25px;
+        @include font-size(0.8)
+    }
+}
+
+.about-us-deco{
+    h1, img{
+        margin-bottom: 10px;
+    }
+    img{width: 45%;}
+}
+
+.sign{
+    display: flex;
+    justify-content: flex-end;
+    height: 30%;
+    width: 70%;
+    img{
+        height: 50%;
+    }
+}
+
+.about-photo{
+    height: 100%;
+    width: 50vw;
+    position: relative;
+    overflow: hidden;
+    background-image: url(/static/media/People.6fa36651.jpg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
