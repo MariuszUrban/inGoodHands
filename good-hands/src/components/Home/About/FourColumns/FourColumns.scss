@@ -1,11 +1,12 @@
-@import '../../../scss/main.scss';
+@import '../../../../scss/main.scss';
 
 .four-columns-container{
-    height: 35%;
+    height: 30vh;
     width: 100%;
     background-color: $color1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .four-column-box{
@@ -21,17 +22,18 @@
 }
 
 .column-thin-box{
-    height: 100%;
+    height: 60%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     img{
         margin-bottom: 5px;
+        height: 10vh;
     }
     h1{
-        height: 30px;
-        font-size: 80%;
+        height: 20px;
+        font-size: 40%;
         text-align: center;
     }
     span{
@@ -40,9 +42,10 @@
         border-bottom: 1px solid black;
     }
     p{
+        margin-top: 10px;
         height: 30px;
         width: 70%;
-        font-size: 65%;
+        font-size:30%;
         text-align: center;
     }
 }

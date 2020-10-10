@@ -1,0 +1,22 @@
+@import '../../../scss/main.scss';
+
+#about-container{
+    height: 100vh;
+}
+
+.about-deco{
+    height: 20vh;
+    h1{
+        @include font-size(0.8);
+    }
+    img{
+        width: 15%;
+    }
+}
+
+.about-btn-wrapper{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

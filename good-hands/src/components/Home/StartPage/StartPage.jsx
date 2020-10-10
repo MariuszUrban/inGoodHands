@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./_startPage.scss";
-import Home from "./assets/Home-Hero-Image.jpg";
 import Navigation from "../../Navigation/Navigation";
 import DecorationBar from "../../DecorationBar/DecorationBar";
 import Button from "../../Button/Button";

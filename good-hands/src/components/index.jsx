@@ -1,10 +1,7 @@
 import React from "react";
 
 import StartPage from './Home/StartPage/StartPage'
-import ThreeColumns from './Home/ThreeColumns/ThreeColumns';
-import BarDeco from './Home/BarDeco';
-import FourColumns from './Home/FourColumns/FourColumns';
-import BarButton from './Home/BarButton';
+import About from './Home/About/About'
 import AboutUs from './Home/AboutUs';
 import WhoWeHelp from './Home/WhoWeHelpLibrary/WhoWeHelp';
 import ContactForm from './Home/ContactForm/ContactForm';
@@ -14,12 +11,7 @@ export default function Home() {
   return (
     <main >
       <StartPage />
-      <section id='info-columns' >
-        <ThreeColumns />
-        <BarDeco />
-        <FourColumns />
-        <BarButton />
-      </section>
+      <About />
       <section id='about'>
         <AboutUs />
       </section>
